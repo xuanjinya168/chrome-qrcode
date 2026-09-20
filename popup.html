@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QR Code Generator</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>QR Code Generator</h1>
+    
+    <div class="input-section">
+      <textarea id="inputText" placeholder="请输入文本内容..."></textarea>
+      <div id="spaceWarning" class="space-warning"></div>
+    </div>
+    
+    <div class="button-section">
+      <button id="generateBtn">生成二维码</button>
+      <button id="copyBtn">复制文本</button>
+    </div>
+    
+    <div id="qrcode-container"></div>
+    
+    <div id="copyStatus"></div>
+  </div>
+  
+  <!-- 按依赖顺序加载，qrcode-generator 无依赖，qr-renderer 依赖 qrcode，popup.js 依赖两者 -->
+  <script src="qrcode-generator.js" defer></script>
+  <script src="qr-renderer.js" defer></script>
+  <script src="popup.js" defer></script>
+</body>
+</html>

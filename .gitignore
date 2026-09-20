@@ -1,0 +1,7 @@
+Thumbs.db
+.DS_Store
+*.crx
+*.pem
+_gitee_*.py
+.idea/
+.vscode/
