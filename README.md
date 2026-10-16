@@ -42,6 +42,12 @@ A Chrome extension that turns text into a QR code. Type in the popup, or show se
 | `qr-renderer.js` | 将编码结果渲染为 SVG |
 | `icons/` | 扩展程序图标资源 |
 
+### 许可
+
+本项目采用 [MIT License](LICENSE)。
+
+`qrcode-generator.js` 是 Kazuhiko Arase 的二维码编码库，版权归原作者所有，同样以 MIT 许可发布。
+
 ---
 
 ## English
@@ -77,3 +83,9 @@ A Chrome extension that turns text into a QR code. Type in the popup, or show se
 | `qrcode-generator.js` | QR code encoding library |
 | `qr-renderer.js` | Renders encoded data as SVG |
 | `icons/` | Extension icon assets |
+
+### License
+
+This project is released under the [MIT License](LICENSE).
+
+`qrcode-generator.js` is Kazuhiko Arase's QR encoder. Its copyright remains with the original author, and it is also released under the MIT License.
