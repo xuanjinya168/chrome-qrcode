@@ -107,23 +107,24 @@ button:active {
 }
 
 #qrcode-container {
-  text-align: center;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
   padding: 16px;
   background: #f8f9fa;
   border-radius: 8px;
-  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 #qrcode-container img,
-#qrcode-container canvas {
-  max-width: 188px;
-  max-height: 188px;
-  width: auto;
-  height: auto;
+#qrcode-container canvas,
+#qrcode-container svg {
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 4px;
 }
 

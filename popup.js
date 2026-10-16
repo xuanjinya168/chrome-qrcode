@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
       QRCodeGenerator.render(qrcodeContainer, text, {
-        size: 256,
+        size: 188,
         errorCorrectionLevel: 'H'
       });
       return true;
